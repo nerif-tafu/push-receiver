@@ -1,5 +1,5 @@
 const crypto = require('crypto');
-const request = require('request-promise');
+const request = require('../utils/http');
 const { escape } = require('../utils/base64');
 
 const FCM_SUBSCRIBE = 'https://fcm.googleapis.com/fcm/connect/subscribe';
